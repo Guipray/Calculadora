@@ -1,0 +1,73 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://s2.glbimg.com/N4Pd6YqIyG5muJcVRabnOe5KfE0=/0x0:620x385/984x0/smart/filters:strip_icc()/g.glbimg.com/og/gs/gsat4/f/thumbs/materia/2015/03/11/info-conversor-moeda.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0px 0px 5px;
+  border-radius: 100px;
+  -webkit-text-stroke: 1px #000000;
+  text-shadow: 0 0 6px #000000;
+}
+
+.subtitle {
+  color: #ffffff;
+  margin: 50px 0px 5px;
+  border-radius: 100px;
+  -webkit-text-stroke: 1px #000000;
+  text-shadow: 0 0 3px #000000;
+}
+
+.resultado {
+  color: #ffffff;
+  margin: 50px 0px 5px;
+  border-radius: 100px;
+  -webkit-text-stroke: 1px #000000;
+  text-shadow: 0 0 5px #000000;
+}

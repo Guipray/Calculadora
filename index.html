@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Desafio_Aula_05_ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de Moedas
+    </h1>
+    <h2 class="subtitle">
+      Digite um valor em Real ou Dólar para ser convertido
+    </h2>
+    <div class="form-wrapper">
+      <input type="number" id="valor" placeholder="Insira o valor">
+      <button type="submit" onclick="converterDolar()">Converter Dolar</button>
+      <button type="submit" onclick="converterReal()">Converter Real</button>
+      <button type="submit" onclick="converterBitcoin()">Converter Bitcoin</button>
+    </div>
+    <div class="fundo">
+      <h2 class="resultado " id="valorConvertido"></h2>
+    </div>
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
